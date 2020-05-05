@@ -1,0 +1,17 @@
+~*
+.idea/
+.idea/*
+.idea
+out
+out/
+out/*
+nbproject
+nbproject/
+nbproject/*
+build
+build/
+build/*
+dist
+dist/
+dist/*
+TetraederProject.iml

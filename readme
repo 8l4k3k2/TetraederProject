@@ -1,0 +1,26 @@
+Das Programm TetraederProject dient zur Darstellung eines Tetraeders mittels verschiedener Darstellungsmethoden.
+Zunächst kann man die dreidimensionalen Koordinaten aller Vier Punkte in das User Interface eingeben, dann die
+Darstellungsmethode(Kavaliersperspektive oder Perspektivische Projektion) mit dem entsprechenden Radiobutton auswählen
+und dann 'zeichnen' drücken um den Tetraeder darzustellen. Nicht zusehende Kanten werden als gestichelte Linie dargestellt.
+Mit dem Tetraeder können nun verschiedene Operationen durchgeführt werden.
+
+Translation/Verschiebung:
+Es kann ein Vektor in die GUI eingeben werden in dessen Richtung dann nach Betätigung des Buttons 'Verschieben' alle
+Punkte des Tetraeders verschoben werden.
+
+Skalierung:
+Nach der Betätigung des Buttons 'Skalierung' wird der Tetraeder um den in das Textfeld eingegebenen Prozentwert
+vergrößert oder verkleinert.
+
+Rotation:
+In die Textfelder wird der Winkel in Grad eingegeben in dem der Tetraeder um die entsprechende Achse gedreht werden
+soll. Dies geschieht entweder um den Koordinatenursprung oder um einen beliebigen Punkt, der eingegeben werden kann,
+falls der entsprechende Radiobutton aktiviert ist.
+
+
+Zahnrad:
+Es kann ein dreidimensionales Zahnrad gezeichnet werden, welches aus ~160000 einzelnen Dreiecken besteht. Diese Daten
+werden der TestRad.inc entnommen.
+Das gezeichnete Zahnrad kann dann auch um die Achsen des Koordiantensystems gedreht werden.
+
+Es wird javaFX benötigt. Getestet wurde das Programm zuletzt mit Java11 und JavaFX 11.
